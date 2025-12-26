@@ -1,1 +1,13 @@
 # ML-for-Stroke-Prediction
+
+Intro: Worked with a team of 4 to perform analysis of the Kaggle Stroke Prediction Dataset using Random Forest, Decision Trees, Neural Networks, KNN, SVM, and GBM.
+
+DataSet: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+
+Libraries Used: Pandas, Scitkitlearn, Keras, Tensorflow, MatPlotLib, Seaborn, and NumPy 
+
+DataSet Description: The Kaggle stroke prediction dataset contains over 5 thousand samples with 11 total features (3 continuous) including age, BMI, average glucose level, and more. The output attribute is a binary column titled “stroke”, with 1 indicating the patient had a stroke, and 0 indicating they did not.
+
+Problems Faced: Highly imbalanced dataset (95% non-stroke, 5% stroke), missing values, irrelevant features, and un-encoded categorical variables.
+
+PreProcessing Techniques: One-hot Encoding, feature selection, under-sampling, normalization using standard scaler, k-fold cross validation, and nullity encoding.
